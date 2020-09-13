@@ -9,6 +9,6 @@ class ColorGenerator {
     int g = _randomNumbersGenerator.nextInt(255);
     int b = _randomNumbersGenerator.nextInt(255);
 
-    return Color.fromARGB(0, r, g, b);
+    return Color.fromARGB(255, r, g, b);
   }
 }
