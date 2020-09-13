@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_app/widgets/stylized_text_widget.dart';
 
 class CenterTextWidget extends StatelessWidget {
 
@@ -9,12 +10,7 @@ class CenterTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Center(
-      child: new Text(
-          _text,
-          style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold)
-      ),
+        child: new StylizedTextWidget(_text, 20, FontWeight.bold)
     );
   }
 }

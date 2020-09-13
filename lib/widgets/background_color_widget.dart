@@ -6,6 +6,6 @@ class BackgroundColorWidget extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return new BackgroundColorState(Colors.white);
+    return new BackgroundColorState();
   }
 }

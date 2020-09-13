@@ -8,8 +8,6 @@ class BackgroundColorState extends State<BackgroundColorWidget> {
 
   Color _backgroundColor;
 
-  BackgroundColorState(this._backgroundColor);
-
   handleTappingOnScreen() {
     Color newBackgroundColor = ColorGenerator.generateRandomColorUsingRGB();
 
