@@ -15,9 +15,9 @@ The whole application was separated to small widgets for getting good flexibilit
  ! Widget tests were written to check the correct work of the application.
  
 # Tools
-IDE: Intellij IDEA
-Android Emulator: Genymotion (Google Nexus 5)
-VCS: Git
+ - IDE: Intellij IDEA
+ - Android Emulator: Genymotion (Google Nexus 5)
+ - VCS: Git
 
  
  
