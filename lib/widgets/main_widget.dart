@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/widgets/center_text_widget.dart';
 
 class MainWidget extends StatelessWidget {
 
@@ -8,7 +9,7 @@ class MainWidget extends StatelessWidget {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
       home: new Scaffold(
-        body: new Text('Hello, world!'),
+          body: new CenterTextWidget('Hey, there!')
       ),
     );
   }
