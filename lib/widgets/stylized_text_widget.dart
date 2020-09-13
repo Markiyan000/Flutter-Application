@@ -13,6 +13,7 @@ class StylizedTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Text(
         _content,
+        textDirection: TextDirection.ltr,
         style: TextStyle(
             fontSize: _fontSize,
             fontWeight: fontWeight
